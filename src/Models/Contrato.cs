@@ -17,8 +17,10 @@ public class Contrato
         this.Valor = valor;
         this.Pago = false;
     }
+    public int Id { get; set; }
     public DateTime DataCriacao { get; set; }
     public String TokenId { get; set; }
     public Double Valor { get; set; }
     public bool Pago { get; set; }
+    public int PessoaId { get; set; }
 }
